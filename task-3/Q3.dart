@@ -1,6 +1,5 @@
 // Q.3: Create a list of Days and remove one by one from the end of list.
 void main() {
-  var test = [];
   var days = [
     "monday",
     "tuesday",
@@ -10,4 +9,16 @@ void main() {
     "saturday",
     "sunday"
   ];
+  days.removeLast();
+  print(days);
+  days.removeLast();
+  print(days);
+  days.removeLast();
+  print(days);
+  days.removeLast();
+  print(days);
+  days.removeLast();
+  print(days);
+  days.removeLast();
+  print(days);
 }
