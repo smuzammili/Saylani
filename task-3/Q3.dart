@@ -9,16 +9,8 @@ void main() {
     "saturday",
     "sunday"
   ];
-  days.removeLast();
-  print(days);
-  days.removeLast();
-  print(days);
-  days.removeLast();
-  print(days);
-  days.removeLast();
-  print(days);
-  days.removeLast();
-  print(days);
-  days.removeLast();
-  print(days);
+  for (var i = -days.length; i < days.length; i++) {
+    days.removeLast();
+    print(days);
+  }
 }
