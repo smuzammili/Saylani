@@ -2,12 +2,12 @@
 // where to find all keys that have length 4.
 void main() {
   Map names = {
-    03331234567: 50,
-    03211234567: 100,
-    03191234567: 200,
-    03001234567: 300
+    "Ali": "03331234567",
+    "uzair": "03211234567",
+    "Asad": "03191234567",
+    "Khizer": "03001234567",
+    "faizi": "0335"
   };
-  for (int i in names.keys) {
-    print(i);
-  }
+  List letter = names.keys.where((key) => key.length == 4).toList();
+  print("Keys with length 4: $letter");
 }

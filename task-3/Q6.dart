@@ -2,3 +2,13 @@
 // will be the name country & country value will have another map having
 // capitalCity, currency and language to it. by using any country key print all the
 // value of Capital & Currency.
+void main(){
+Map world = {
+  Map countries ={USA:{ 
+    "capitalCity": "Washignton.DC",
+
+
+  }}
+  }
+
+}
