@@ -12,4 +12,12 @@ void main() {
     'mon': 3000.0,
     'tue': 3234.0,
   };
+  String day = 'fri';
+  double value = 5000.0;
+  if (expenses.containsKey(day)) {
+    expenses[day] = value;
+  } else {
+    expenses[day] = value;
+  }
+  print("updated expenes: $expenses");
 }
