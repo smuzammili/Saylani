@@ -6,7 +6,7 @@ void main() {
     "uzair": "03211234567",
     "Asad": "03191234567",
     "Khizer": "03001234567",
-    "faizi": "0335"
+    "faiz": "0335"
   };
   List letter = names.keys.where((key) => key.length == 4).toList();
   print("Keys with length 4: $letter");
