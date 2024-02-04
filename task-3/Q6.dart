@@ -3,18 +3,10 @@
 // capitalCity, currency and language to it. by using any country key print all the
 // value of Capital & Currency.
 void main() {
-  // Create the world map
   var world = newMethod;
-
-  // Choose a country key
   String countryKey = 'India';
-
-  // Check if the selected country exists in the world map
   if (world.containsKey(countryKey)) {
-    // Get the country map
-    Map<String, dynamic> countryInfo = world[countryKey];
-
-    // Print capital and currency information
+    Map<String, dynamic> countryInfo = world;
     print('Country: $countryKey');
     print('Capital City: ${countryInfo['capitalCity']}');
     print('Currency: ${countryInfo['currency']}');
@@ -23,6 +15,7 @@ void main() {
   }
 }
 
+// Function that returns the world map
 Map<String, Map<String, dynamic>> get newMethod {
   return <String, Map<String, dynamic>>{
     'USA': {
