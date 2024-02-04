@@ -3,7 +3,6 @@
 // parameter and print a new list containing only the positive numbers.
 
 List<int> filterPositiveNumbers(List<int> originalList) {
-  // Use the `where` method to filter out negative numbers
   List<int> positiveNumbers =
       originalList.where((number) => number >= 0).toList();
   return positiveNumbers;
@@ -11,11 +10,7 @@ List<int> filterPositiveNumbers(List<int> originalList) {
 
 void main() {
   List<int> originalList = [5, -2, 8, -1, 7, 3, -4, 6];
-
-  // Get a new list containing only positive numbers
   List<int> positiveNumbers = filterPositiveNumbers(originalList);
-
-  // Print the original and filtered lists
   print('Original List: $originalList');
   print('Positive Numbers: $positiveNumbers');
 }
