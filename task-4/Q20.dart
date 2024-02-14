@@ -22,3 +22,5 @@ int countVowels(String str) {
 
   return count;
 }
+//Q11.display right angle pattern
+

@@ -1,25 +1,18 @@
 // Write a program that takes a list of numbers as input and prints the
 // numbers greater than 5 using a for loop and if-else condition.
 
+import 'dart:io';
+
 void main() {
-  List<int> numbers = [
-    2,
-    8,
-    3,
-    10,
-    5,
-    7
-  ]; // You can replace this with any list of numbers
-
-  print('Input numbers: $numbers');
-  print('Numbers greater than 5:');
-
-  for (int number in numbers) {
-    if (number > 5) {
-      print(number);
-    } else {
-      // Optional: If you want to print numbers less than or equal to 5, you can include this block.
-      // print('$number is less than or equal to 5');
+  List<int> x = [];
+  stdout.write("Enter the number of elements for the list: ");
+  int n = int.parse(stdin.readLineSync()!);
+  for (int i = 0; i < n; i++) {
+    stdout.write("Enter number ${i + 1}: ");
+    int numbers = int.parse(stdin.readLineSync()!);
+    if (numbers >= 5) {
+      x.add(numbers);
     }
   }
+  print(x);
 }
