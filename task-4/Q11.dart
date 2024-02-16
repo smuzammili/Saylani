@@ -5,19 +5,10 @@
 // **
 // ***
 
-void displayTriangle(int rows) {
-  for (int i = 1; i <= rows; i++) {
-    for (int j = 1; j <= i; j++) {
-      print("*");
-    }
-    print(i);
-  }
-}
-
 void main() {
-  // Specify the number of rows in the triangle
-  int numRows = 3;
-
-  // Call the function to display the triangle
-  displayTriangle(numRows);
+  for (var i = 1; i < 5; i++) {
+    String total = "*" * (i);
+    print(total);
+  }
+  print('');
 }
