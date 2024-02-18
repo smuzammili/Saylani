@@ -2,7 +2,7 @@
 // using a for loop and if-else condition.
 
 void main() {
-  String inputString = "Hello, World!"; // You can replace this with any string
+  String inputString = "Lieutenant"; // You can replace this with any string
 
   int vowelCount = countVowels(inputString);
 
