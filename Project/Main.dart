@@ -9,25 +9,8 @@
 // Obese (Class II)	35.0 – 39.9	1.40 – 1.59
 // Obese (Class III)	≥ 40.0	≥ 1.60
 
-import 'dart:io';
+import 'Male.dart';
 
 void main() {
-  stdout.write("Enter Height in CM: ");
-  int Height = stdin.readLineSync()!;
-  stdout.write("Enter Weight in Kg: ");
-  double Weight = stdin.readLineSync()!;
+  calculateBmi();
 }
-
-//  String userEmail = stdin.readLineSync()!;
-//     stdout.write("Enter your password: ");
-//     String userPassword = stdin.readLineSync()!;
-//     for (var i = 0; i < user_credentials.length - 1; i++) {
-//       if (userEmail == user_credentials[i][0] &&
-//           userPassword == user_credentials[i][1]) {
-//         print("User login successful.");
-//         isLoggedIn = true;
-//         break;
-//       }
-//     }
-//     if (!isLoggedIn) {
-//       print("Invalid credentials. Try again.");
