@@ -9,7 +9,7 @@
 // Obese (Class II)	35.0 – 39.9	1.40 – 1.59
 // Obese (Class III)	≥ 40.0	≥ 1.60
 
-import 'Male.dart';
+import 'condition.dart';
 
 void main() {
   calculateBmi();

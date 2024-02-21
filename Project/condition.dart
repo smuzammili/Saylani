@@ -9,7 +9,7 @@ void calculateBmi() {
   stdout.write("Enter your height in feet: ");
   double h = double.parse(stdin.readLineSync()!);
 
-  if (w != [] && h != []) {
+  if (w != () && h != ()) {
     double newHeight = (2.54 * (h * 12)) / 100;
     double bmi = w / (newHeight * newHeight);
 
