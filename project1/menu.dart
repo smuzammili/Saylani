@@ -24,7 +24,7 @@ void mediumPizza() {
 void largePizza() {
   print("choose your favourite flavour with price");
   print(
-      "1. chicken tikkka     850\n2. chicken fajita     800\n3. chicken cheesy     900");
+      "1. chicken tikkk 850\n2. chicken fajita     800\ n3. chicken cheesy     900");
   int finput = int.parse(stdin.readLineSync()!);
   if (finput == 1 || finput == 2 || finput == 3) {
     print("Thank you for order ! pizza will be deliver within 15 minutes");
@@ -50,8 +50,4 @@ void startRestaurant() {
   print("--------Welcome Muzzi Pizza Restaurant House------");
   print("------------------------------------------------");
   menuCard();
-}
-
-void main() {
-  startRestaurant();
 }
