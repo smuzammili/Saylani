@@ -60,10 +60,6 @@ void largePizza() {
     print("Invalid Selection , Try again");
     largePizza();
   }
-
-  // if (flavourInput == 1 || flavourInput == 2 || flavourInput == 3) {
-  //   print("Thank you for order ! pizza will be deliver within 15 minutes");
-  //   menuCard();
 }
 
 void menuCard() {
